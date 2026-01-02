@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  min-width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  min-height: 85vh;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: rgb(119, 64, 2);
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px;
+}
+
+
+.container .tenor-gif-embed {
+    display: flex;
+    max-width: 200px;
+}
+
+.container .btn{
+    display: flex;
+    gap: 25px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 84, 21);
+    padding: 10px 25px;
+    width: 150px;
+    border-radius: 30px;
+}
